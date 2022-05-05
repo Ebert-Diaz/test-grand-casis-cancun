@@ -1,0 +1,151 @@
+.App {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 5px;
+  padding: 10px;
+  
+}
+
+.header {
+  margin-bottom: -5px;
+  font-size: .8fr;
+  grid-column: 1/4;
+  text-align: left;
+  color: #ffffff;
+  font-style: italic;
+  background-color: #bf0710;
+}
+.header > p {
+  margin-left: 10px;
+}
+
+/* Estilos para la seccion de Restaurantes */
+
+.restaurantes {
+  align-items: center;
+  text-align: center;
+}
+
+.car {
+  margin: 0 10px;
+  border-top: 1px solid black ;
+  text-align: left;
+  
+}
+
+.description {
+  margin-top: -10px;
+  width: 40%;
+
+  color: red;
+}
+
+.car > h4{
+  margin-bottom: -15px;
+}
+
+.boton_personalizado{
+  margin-top: -12%;
+  float:right;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1.5px solid #000000;
+}
+
+.boton_personalizado:hover{
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/* Estilos para la seccion de barres */
+
+.bares {
+  align-items: center;
+  text-align: center;
+
+  color: white;
+  
+  background-color: #343434;
+}
+
+.car-bar {
+  margin: 0 10px;
+  border-top: 1px solid rgb(255, 255, 255) ;
+  text-align: left;
+  
+}
+
+.description-bar {
+  margin-top: -10px;
+  width: 40%;
+
+  color: rgb(255, 255, 255);
+}
+
+.car-bar > h4{
+  margin-bottom: -15px;
+}
+
+.boton_personalizado-bar{
+  margin-top: -12%;
+  float:right;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #343434;
+  border-radius: 5px;
+  border: 1.5px solid #ffffff;
+}
+
+.boton_personalizado-bar:hover{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Estilos para la seccion de detalles */
+.detalle {
+  align-items: center;
+  text-align: center;
+}
+
+.detalle > h4 {
+  color: red;
+}
+
+.detalle > img {
+  position: absolute;  
+}
+.img-portada {
+  z-index: 1;
+  max-width: 100%;
+  margin-bottom: -25%;
+}
+.img-logo {
+  
+  max-width: 35%;
+  margin-top: -100%;
+  z-index: 3;
+  
+}
+
+.informacion {
+  margin-top: 25%;
+  display: flex;
+  width: 90%;
+}
+
+.info-left {
+  width: 50%;
+}
+
+.info-right{
+  width: 50%;
+  border-left: 1px solid rgb(44, 43, 43) ;
+}
