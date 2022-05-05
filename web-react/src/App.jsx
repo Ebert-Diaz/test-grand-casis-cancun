@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import logo from'./logo.svg'
+
 
 function App() {
     const [restaurantes, setRestaurantes] = useState();
